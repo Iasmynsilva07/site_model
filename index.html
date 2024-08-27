@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link   rel="stylesheet"        href="./style.css">
+  <title>Desktop-explorer</title>
+</head>
+<body>
+<div id="app">
+
+  
+  <header  class="container">
+    <nav>
+        <img src="./assets/camera.svg" alt="camera">
+      
+        <ul>
+          <li>Home</li>
+          <li class="active" >Galeria</li>
+        </ul>
+    </nav>
+
+      <form>
+        <div class="input-wrapper">
+          <!-- o label significa que quando eu clicar no label(nome) automaticamente seleciona o input -->
+          <label for="search">Pesquise por imagens e coleções</label> 
+          <input  id="search" type="text" placeholder="Pesquise por imagens e coleções">
+        </div>
+      </form>
+        
+          <img class="avatar" src="./assets/avatar.jpg" alt="imagem avatar">
+  </header>
+  
+  <main>
+    <div class="container">
+         <h1>Galeria</h1>
+
+         <section class="galery">
+
+            <figure class="item">
+
+               <img  src="./assets/img1.jpg" alt="espaço de trabalho">
+
+               <figcaption class="details">
+                  <h2>Workspace elétrica</h2>
+                      <div class="tags">
+                        <span>tag</span>
+                     </div>           
+               </figcaption>
+
+            </figure>
+
+            <figure class="item" style="--delay: .8s">
+
+              <img src="./assets/img2.jpg" alt="espaço de trabalho">
+              <figcaption class="details">
+                 <h2>Dark and red</h2>
+                   <div class="tags">
+                       <span>tag</span>
+                   </div>
+           
+              </figcaption>
+
+           </figure>
+
+           <figure class="item" style="--delay:1.2s" >
+
+            <img src="./assets/img3.jpg" alt="espaço de trabalho">
+            <figcaption class="details">
+               <h2>Organização e grids</h2>
+                 <div class="tags">
+                     <span>tag</span>
+                 </div>
+         
+            </figcaption>
+
+         </figure>
+
+         <figure class="item" style="--delay: 1.6s">
+
+          <img src="./assets/img4.jpg" alt="espaço de trabalho">
+          <figcaption class="details">
+             <h2>Colméia</h2>
+               <div class="tags">
+                   <span>tag</span>
+               </div>
+       
+          </figcaption>
+
+       </figure>
+
+       <figure class="item" style="--delay: 1.8s">
+
+        <img src="./assets/img5.jpg" alt="espaço de trabalho">
+        <figcaption class="details">
+           <h2>Setup de escritor</h2>
+             <div class="tags">
+                 <span>tag</span>
+             </div>
+     
+        </figcaption>
+
+     </figure>
+
+
+     <figure class="item" style="--delay: 2.0s">
+
+      <img src="./assets/img6.jpg" alt="espaço de trabalho">
+      <figcaption class="details">
+         <h2>Ergonomia e cores</h2>
+           <div class="tags">
+               <span>tag</span>
+           </div>
+   
+      </figcaption>
+
+                </figure>
+
+                <figure class="item" style="--delay: 2.2s">
+
+                  <img src="./assets/img7.jpg" alt="espaço de trabalho">
+                  <figcaption class="details">
+                    <h2>Show de luzes</h2>
+                      <div class="tags">
+                          <span>tag</span>
+                      </div>
+              
+                  </figcaption>
+
+              </figure>
+
+              <figure class="item" style="--delay: 2.4s">
+
+                <img src="./assets/img8.jpg" alt="espaço de trabalho">
+                <figcaption class="details">
+                  <h2>Deep purple</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+
+                </figcaption>
+
+              </figure>
+
+              <figure class="item" style="--delay: 2.4s">
+
+                <img src="./assets/img9.jpg" alt="espaço de trabalho">
+                <figcaption class="details">
+                  <h2>Multi-Screen</h2>
+                    <div class="tags">
+                        <span>tag</span>
+                    </div>
+
+                </figcaption>
+
+              </figure>
+
+         </section>
+    </div>
+  </main>
+  
+  <footer class="container">
+    <p>© 2023 - Rocketseat Explorer</p>
+  </footer>
+
+</div>
+</body>
+</html>
